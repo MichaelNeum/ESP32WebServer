@@ -10,8 +10,8 @@ String getPage();
 WebServer server (80);
 
 const int LedPort [] = {25,26,27};
-const char* ssid = "LAPTOP-B2NH8UJ5 6010";
-const char* password = "Laptop1234";
+const char* ssid = ""; //Enter SSID here
+const char* password = ""; //Enter Password here
 
 WClass WS (ssid,password);
 
